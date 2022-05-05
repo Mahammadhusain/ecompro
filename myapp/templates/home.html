@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Home |
+{% endblock title %}
+
+
+{% block body %}
+<!-- Main Slider -->
+<div class="row">
+    <div class="owl-one owl-carousel owl-theme">
+        <div class="item"><img style="height: 400px;" src="{% static '1.jpg' %}" alt="" srcset=""></div>
+        <div class="item"><img style="height: 400px;" src="{% static '1.jpg' %}" alt="" srcset=""></div>
+        <div class="item"><img style="height: 400px;" src="{% static '1.jpg' %}" alt="" srcset=""></div>
+
+    </div>
+</div>
+
+<!-- Categories Slider -->
+<div class="container">
+    <div class="p-3 text-center">
+        <h2 class="display-4">Our Categories</h2>
+    </div>
+    <div class="row">
+        <div class="owl-two owl-carousel owl-theme">
+            <div class="item"><img src="{% static '1.jpg' %}" alt="" srcset=""></div>
+            <div class="item"><img src="{% static '1.jpg' %}" alt="" srcset=""></div>
+            <div class="item"><img src="{% static '1.jpg' %}" alt="" srcset=""></div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Our Products -->
+<div class="p-3 text-center">
+    <h2 class="display-4">Our Products</h2>
+</div>
+<div class="container">
+
+    <div class="row ">
+        <div class="col-sm-3 p-2  ">
+            <div class="card" >
+                <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title">Product name</h5>
+                    <p class="card-text text-center">
+                        <div class="row">
+                            <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                            <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                            <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                        </div>
+                        
+                    </p>
+                    <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-sm-3 p-2  ">
+            <div class="card" >
+                <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title">Product name</h5>
+                    <p class="card-text text-center">
+                        <div class="row">
+                            <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                            <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                            <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                        </div>
+                        
+                    </p>
+                    <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-sm-3 p-2  ">
+            <div class="card" >
+                <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title">Product name</h5>
+                    <p class="card-text text-center">
+                        <div class="row">
+                            <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                            <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                            <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                        </div>
+                        
+                    </p>
+                    <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col-sm-3 p-2  ">
+            <div class="card" >
+                <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                <div class="card-body ">
+                    <h5 class="card-title">Product name</h5>
+                    <p class="card-text text-center">
+                        <div class="row">
+                            <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                            <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                            <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                        </div>
+                        
+                    </p>
+                    <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+
+
+
+
+    </div>
+
+    <!-- Pagination -->
+    <div class="row mt-3 ">
+        <div class="col-12 d-flex justify-content-center">
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+{% endblock body %}

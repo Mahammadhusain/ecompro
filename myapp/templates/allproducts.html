@@ -1,0 +1,215 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+AllProducts |
+{% endblock title %}
+
+
+{% block body %}
+<div class="container-fluid p-3">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action bg-secondary text-light">
+                    <strong>All Products</strong>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Mobile</a>
+                <a href="#" class="list-group-item list-group-item-action">Men</a>
+                <a href="#" class="list-group-item list-group-item-action">Women</a>
+                <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1"
+                    aria-disabled="true">Kids</a>
+            </div>
+        </div>
+        <div class="col-lg-9 col-sm-9 ">
+            <div class="row ">
+                <div class="col-sm-12 bg-secondary p-2" style="border-radius: 4px;">
+                    <form action="" method="">
+                        <div class="row  ">
+                            <div class="col-lg-4 col-sm-12 mt-3">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Category - 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-12 mt-3">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Category - 2</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-12 mt-3">
+                                <div class="form-group">
+                                    <input type="password" placeholder="Product name" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-sm-12 mt-3">
+                                <div class="form-group">
+                                    <button class="btn btn-warning" type="submit"><i class="fas fa-filter"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-3 p-2  ">
+                    <div class="card" >
+                        <img style="height: 230px;" src="{% static 'prod.jpg' %}" class="card-img-top p-3 border" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">Product name</h5>
+                            <p class="card-text text-center">
+                                <div class="row">
+                                    <h5 class="ml-2"><strong>₹ 2000</strong></h5>
+                                    <h7 class="ml-2 mb-1"><s>₹ 3000</s></h7>
+                                    <small class="text-success ml-2 mt-1"> ₹ 10%</></small>
+                                </div>
+                                
+                            </p>
+                            <a href="#" class="btn btn-block btn-warning"><h5><i class="fas fa-cart-plus"></i> Add to cart</h5></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+
+
+
+
+            </div>
+
+            <!-- Pagination -->
+            <div class="row mt-3 ">
+                <div class="col-12 d-flex justify-content-center">
+                    <nav aria-label="...">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active"  aria-current="page">
+                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
